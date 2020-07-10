@@ -4,7 +4,7 @@ python:
 install: pip install coverage coveralls flake8 mccabe mypy pylint pytest
 script:
     - flake8 forecastvh
-    - pylint forecastvh
+    - pylint forecastvh --exit-zero
     - mypy forecastvh
     - coverage erase
     - coverage run --include=forecastvh/* -m pytest -ra
