@@ -13,7 +13,7 @@ Search parameters:
 
 - *city* - search string (name, author etc)
 - *country* - ISO alpha-2 country code (de, fr etc), default: en
-- *units* - units format (`imperial` or `metric`), default: metric
+- *units* - units format (imperial or metric), default: metric
 
 Returned attributes for each podcast (https://openweathermap.org/current#current_JSON):
 
