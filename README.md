@@ -7,6 +7,26 @@
 [![Code Coverage][coverage-image]][coverage-url]
 [![Code Quality][quality-image]][quality-url]
 
+`podsearch` finds podcasts via [OpenWeather API](https://openweathermap.org/current).'
+
+Search parameters:
+
+- *city* - search string (name, author etc)
+- *country* - ISO alpha-2 country code (de, fr etc), default: en
+- *units* - units format (`imperial` or `metric`), default: metric
+
+Returned attributes for each podcast (https://openweathermap.org/current#current_JSON):
+
+- *id* - City ID (e.g., `420006353`)
+- *country* - Country code (`GB`)
+- *city* - City name (`London`)
+- *temp* - Temperature (Default: Metric). (`19.8`)
+- *feels_like* - Temperature. This temperature parameter accounts for the human perception of weather. (`19`)
+- *pressure* - Atmospheric pressure on the ground level, hPa (`1023`)
+- *humidity* - Humidity, % (`100`)
+- *wind_speed* - Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour. (`1.5`)
+- *cloudiness* - Cloudiness, % (`80`)
+- *status* - Status code, 200 or 404 (`200`)
 
 ## Installation
 
