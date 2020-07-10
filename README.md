@@ -4,7 +4,7 @@
 
 [![PyPI Version][pypi-image]][pypi-url]
 [![Build Status][build-image]][build-url]
-[![Code Coverage][coverage-image]][coverage-url]
+[![Coverage Status](https://coveralls.io/repos/github/MorningStar-png/forecastvh-py/badge.svg?branch=master)](https://coveralls.io/github/MorningStar-png/forecastvh-py?branch=master)
 [![Code Quality][quality-image]][quality-url]
 ![GitHub](https://img.shields.io/github/license/MorningStar-png/forecastvh-py)
 
