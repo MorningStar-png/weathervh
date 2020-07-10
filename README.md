@@ -64,7 +64,7 @@ Use [Black](https://black.readthedocs.io/en/stable/) for code formatting and [Co
 [pypi-image]: https://img.shields.io/pypi/v/forecastvh?style=flat-square
 [pypi-url]: https://pypi.org/project/forecastvh/
 [build-image]: https://img.shields.io/travis/MorningStar-png/forecastvh-py?style=flat-square
-[build-url]: https://travis-ci.com/MorningStar-png/forecastvh-py
+[build-url]: https://travis-ci.org/MorningStar-png/forecastvh-py
 [coverage-image]: https://img.shields.io/coveralls/github/MorningStar-png/forecastvh-py?style=flat-square
 [coverage-url]: https://coveralls.io/github/MorningStar-png/forecastvh-py
 [quality-image]: https://img.shields.io/codeclimate/maintainability/MorningStar-png/forecastvh-py?style=flat-square
