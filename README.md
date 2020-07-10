@@ -1,6 +1,6 @@
-# Podast searcher
+# Weather finder
 
-> Search any podcast by name
+> Find any weather forecast
 
 [![PyPI Version][pypi-image]][pypi-url]
 [![Build Status][build-image]][build-url]
@@ -11,27 +11,20 @@
 ## Installation
 
 ```sh
-pip install podsearch
+pip3 install forecastvh
 ```
 
 ## Usage
 
 ```python
->>> import podsearch
->>> podcasts = podsearch.search("python")
->>> podcasts[0].name
-'Talk Python To Me'
->>> podcasts[0].author
-'Michael Kennedy (@mkennedy)'
->>> podcasts[0].url
-'https://podcasts.apple.com/us/podcast/id979020229'
-```
-
-## Development setup
-
-```sh
-$ pip install black pytest
-$ pytest -ra
+>>> import forecastvh
+>>> forecast = forecastvh.get_weather("London")
+>>> forecast.country
+'GB'
+>>> forecast.temp
+'18.01'
+>>> forecast.cloudiness
+'97	'
 ```
 
 ## Contributing
@@ -41,8 +34,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Make sure to add or update tests as appropriate.
 
 Use [Black](https://black.readthedocs.io/en/stable/) for code formatting and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/) for commit messages.
-
-## [Changelog](CHANGELOG.md)
 
 ## License
 
