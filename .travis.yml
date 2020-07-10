@@ -1,11 +1,11 @@
 language: python
 python:
-    - "3.7"
+    - "3.8"
 install: pip install coverage coveralls flake8 mccabe mypy pylint pytest
 script:
-    - flake8 podsearch
-    - pylint podsearch
-    - mypy podsearch
+    - flake8 forecastvh
+    - pylint forecastvh
+    - mypy forecastvh
     - coverage erase
-    - coverage run --include=podsearch/* -m pytest -ra
+    - coverage run --include=forecastvh/* -m pytest -ra
     - coveralls
