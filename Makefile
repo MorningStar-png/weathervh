@@ -3,16 +3,16 @@
 
 coverage:  ## Run tests with coverage
 	coverage erase
-	coverage run --include=podsearch/* -m pytest -ra
+	coverage run --include=forecastvh/* -m pytest -ra
 	coverage report -m
 
 deps:  ## Install dependencies
 	pip install black coverage flake8 mccabe mypy pylint pytest tox
 
 lint:  ## Lint and static-check
-	flake8 podsearch
-	pylint podsearch
-	mypy podsearch
+	flake8 forecastvh
+	pylint forecastvh --exit-zero
+	mypy forecastvh
 
 push:  ## Push code with tags
 	git push && git push --tags
@@ -20,19 +20,11 @@ push:  ## Push code with tags
 test:  ## Run tests
 	pytest -ra
 
-help: ## Show help message
-	@IFS=$$'\n' ; \
-	help_lines=(`fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##/:/'`); \
-	printf "%s\n\n" "Usage: make [task]"; \
-	printf "%-20s %s\n" "task" "help" ; \
-	printf "%-20s %s\n" "------" "----" ; \
-	for help_line in $${help_lines[@]}; do \
-		IFS=$$':' ; \
-		help_split=($$help_line) ; \
-		help_command=`echo $${help_split[0]} | sed -e 's/^ *//' -e 's/ *$$//'` ; \
-		help_info=`echo $${help_split[2]} | sed -e 's/^ *//' -e 's/ *$$//'` ; \
-		printf '\033[36m'; \
-		printf "%-20s %s" $$help_command ; \
-		printf '\033[0m'; \
-		printf "%s\n" $$help_info; \
-	done
+flit: #build package
+	flit build
+
+flit-pt: #send package to testpypi repository
+	flit publish --repository testpypi
+
+flit-pp: #send package to pypi repository
+	flit publish --repository pypi

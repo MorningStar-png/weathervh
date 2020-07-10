@@ -16,6 +16,15 @@ class Podcast:
     humidity: int
     wind_speed: int
     cloudiness: int
+    status: str
+
+
+@dataclass
+class Error:
+    """Error status metadata."""
+
+    message: str
+    status: str
 
 
 def get_weather(city: str, units: str = "metric", lang: str = "en"):
@@ -29,15 +38,20 @@ def get_weather(city: str, units: str = "metric", lang: str = "en"):
         + ""
     )
     todos = json.loads(response.text)
-    f = Podcast(
-        id=todos["id"],
-        country=todos["sys"]["country"],
-        city=todos["name"],
-        temp=todos["main"]["temp"],
-        feels_like=todos["main"]["feels_like"],
-        pressure=todos["main"]["pressure"],
-        humidity=todos["main"]["humidity"],
-        wind_speed=todos["wind"]["speed"],
-        cloudiness=todos["clouds"]["all"],
-    )
-    return f
+    if todos["cod"] == 200:
+        result = Podcast(
+            id=todos["id"],
+            country=todos["sys"]["country"],
+            city=todos["name"],
+            temp=todos["main"]["temp"],
+            feels_like=todos["main"]["feels_like"],
+            pressure=todos["main"]["pressure"],
+            humidity=todos["main"]["humidity"],
+            wind_speed=todos["wind"]["speed"],
+            cloudiness=todos["clouds"]["all"],
+            status=todos["cod"],
+        )
+        return result
+    else:
+        error = Error(status="404", message=todos["message"])
+        return error
