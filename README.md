@@ -1,6 +1,6 @@
 # Weather finder
 
-> Find any weather forecast
+> Find any weather forecast you need
 
 ![PyPI](https://img.shields.io/pypi/v/forecastvh)
 ![Travis (.org)](https://img.shields.io/travis/MorningStar-png/forecastvh-py)
@@ -9,7 +9,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/3784e7d1af07db0d982c/maintainability)](https://codeclimate.com/github/MorningStar-png/forecastvh-py/maintainability)
 ![GitHub](https://img.shields.io/github/license/MorningStar-png/forecastvh-py)
 
-`podsearch` finds podcasts via [OpenWeather API](https://openweathermap.org/current).'
+`podsearch` finds weather forecast via [OpenWeather API](https://openweathermap.org/current).'
 
 Search parameters:
 
@@ -60,6 +60,3 @@ Use [Black](https://black.readthedocs.io/en/stable/) for code formatting and [Co
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-<!-- Markdown link & img dfn's -->
-
