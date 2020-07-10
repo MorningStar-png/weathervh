@@ -2,10 +2,11 @@
 
 > Find any weather forecast
 
-[![PyPI Version][pypi-image]][pypi-url]
-[![Build Status][build-image]][build-url]
+![PyPI](https://img.shields.io/pypi/v/forecastvh)
+![Travis (.org)](https://img.shields.io/travis/MorningStar-png/forecastvh-py)
 [![Coverage Status](https://coveralls.io/repos/github/MorningStar-png/forecastvh-py/badge.svg?branch=master)](https://coveralls.io/github/MorningStar-png/forecastvh-py?branch=master)
-[![Code Quality][quality-image]][quality-url]
+![GitHub issues](https://img.shields.io/github/issues/MorningStar-png/forecastvh-py)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3784e7d1af07db0d982c/maintainability)](https://codeclimate.com/github/MorningStar-png/forecastvh-py/maintainability)
 ![GitHub](https://img.shields.io/github/license/MorningStar-png/forecastvh-py)
 
 `podsearch` finds podcasts via [OpenWeather API](https://openweathermap.org/current).'
@@ -62,11 +63,3 @@ Use [Black](https://black.readthedocs.io/en/stable/) for code formatting and [Co
 
 <!-- Markdown link & img dfn's -->
 
-[pypi-image]: https://img.shields.io/pypi/v/forecastvh
-[pypi-url]: https://pypi.org/project/forecastvh/
-[build-image]: https://img.shields.io/travis/MorningStar-png/forecastvh-py
-[build-url]: https://travis-ci.org/MorningStar-png/forecastvh-py
-[coverage-image]: https://img.shields.io/coveralls/github/MorningStar-png/forecastvh-py
-[coverage-url]: https://coveralls.io/github/MorningStar-png/forecastvh-py
-[quality-image]: https://img.shields.io/codeclimate/maintainability/MorningStar-png/forecastvh-py
-[quality-url]: https://codeclimate.com/github/MorningStar-png/forecastvh-py
