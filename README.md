@@ -1,6 +1,13 @@
 # Podast searcher
 
 > Search any podcast by name
+
+[![PyPI Version][pypi-image]][pypi-url]
+[![Build Status][build-image]][build-url]
+[![Code Coverage][coverage-image]][coverage-url]
+[![Code Quality][quality-image]][quality-url]
+
+
 ## Installation
 
 ```sh
