@@ -6,6 +6,7 @@
 [![Build Status][build-image]][build-url]
 [![Code Coverage][coverage-image]][coverage-url]
 [![Code Quality][quality-image]][quality-url]
+![GitHub](https://img.shields.io/github/license/MorningStar-png/forecastvh-py)
 
 `podsearch` finds podcasts via [OpenWeather API](https://openweathermap.org/current).'
 
@@ -61,11 +62,11 @@ Use [Black](https://black.readthedocs.io/en/stable/) for code formatting and [Co
 
 <!-- Markdown link & img dfn's -->
 
-[pypi-image]: https://img.shields.io/pypi/v/forecastvh?style=flat-square
+[pypi-image]: https://img.shields.io/pypi/v/forecastvh
 [pypi-url]: https://pypi.org/project/forecastvh/
-[build-image]: https://img.shields.io/travis/MorningStar-png/forecastvh-py?style=flat-square
+[build-image]: https://img.shields.io/travis/MorningStar-png/forecastvh-py
 [build-url]: https://travis-ci.org/MorningStar-png/forecastvh-py
-[coverage-image]: https://img.shields.io/coveralls/github/MorningStar-png/forecastvh-py?style=flat-square
+[coverage-image]: https://img.shields.io/coveralls/github/MorningStar-png/forecastvh-py
 [coverage-url]: https://coveralls.io/github/MorningStar-png/forecastvh-py
-[quality-image]: https://img.shields.io/codeclimate/maintainability/MorningStar-png/forecastvh-py?style=flat-square
+[quality-image]: https://img.shields.io/codeclimate/maintainability/MorningStar-png/forecastvh-py
 [quality-url]: https://codeclimate.com/github/MorningStar-png/forecastvh-py
