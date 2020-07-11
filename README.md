@@ -3,7 +3,7 @@
 > Find any weather forecast you need
 
 ![PyPI](https://img.shields.io/pypi/v/forecastvh)
-![Travis (.org)](https://img.shields.io/travis/MorningStar-png/forecastvh-py)
+[![Build Status](https://travis-ci.com/MorningStar-png/forecastvh-py.svg?branch=master)](https://travis-ci.com/MorningStar-png/forecastvh-py)
 [![Coverage Status](https://coveralls.io/repos/github/MorningStar-png/forecastvh-py/badge.svg?branch=master)](https://coveralls.io/github/MorningStar-png/forecastvh-py?branch=master)
 ![GitHub issues](https://img.shields.io/github/issues/MorningStar-png/forecastvh-py)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3784e7d1af07db0d982c/maintainability)](https://codeclimate.com/github/MorningStar-png/forecastvh-py/maintainability)
