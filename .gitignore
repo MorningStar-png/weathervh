@@ -41,6 +41,7 @@ htmlcov/
 .tox/
 .nox/
 .coverage
+.coveralls.yml
 .coverage.*
 .cache
 nosetests.xml
