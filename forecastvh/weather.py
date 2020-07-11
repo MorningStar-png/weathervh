@@ -49,7 +49,7 @@ def get_weather(city: str, units: str = "metric", lang: str = "en"):
             humidity=todos["main"]["humidity"],
             wind_speed=todos["wind"]["speed"],
             cloudiness=todos["clouds"]["all"],
-            status=todos["cod"],
+            status=str(todos["cod"]),
         )
         return result
     else:
