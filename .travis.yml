@@ -8,5 +8,4 @@ script:
     - mypy forecastvh
     - coverage erase
     - coverage run --include=forecastvh/* -m pytest tests/* -ra
-after_success:
     - coveralls
