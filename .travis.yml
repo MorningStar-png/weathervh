@@ -7,5 +7,5 @@ script:
     - pylint forecastvh --exit-zero
     - mypy forecastvh
     - coverage erase
-    - coverage run --include=forecastvh/* -m pytest -ra
+    - coverage run --include=forecastvh/* -m pytest tests/* -ra
     - coveralls
