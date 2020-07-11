@@ -3,11 +3,11 @@
 > Find any weather forecast you need
 
 ![PyPI](https://img.shields.io/pypi/v/forecastvh)
-[![Build Status](https://travis-ci.com/h3xi-png/forecastvh-py.svg?branch=master)](https://travis-ci.com/h3xi-png/forecastvh-py)
-[![Coverage Status](https://coveralls.io/repos/github/h3xi-png/forecastvh-py/badge.svg?branch=master)](https://coveralls.io/github/h3xi-png/forecastvh-py?branch=master)
-![GitHub issues](https://img.shields.io/github/issues/h3xi-png/forecastvh-py)
-[![Maintainability](https://api.codeclimate.com/v1/badges/3784e7d1af07db0d982c/maintainability)](https://codeclimate.com/github/h3xi-png/forecastvh-py/maintainability)
-![GitHub](https://img.shields.io/github/license/h3xi-png/forecastvh-py)
+[![Build Status](https://travis-ci.com/h3xi/forecastvh-py.svg?branch=master)](https://travis-ci.com/h3xi/forecastvh-py)
+[![Coverage Status](https://coveralls.io/repos/github/h3xi/forecastvh-py/badge.svg?branch=master)](https://coveralls.io/github/h3xi/forecastvh-py?branch=master)
+![GitHub issues](https://img.shields.io/github/issues/h3xi/forecastvh-py)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3784e7d1af07db0d982c/maintainability)](https://codeclimate.com/github/h3xi/forecastvh-py/maintainability)
+![GitHub](https://img.shields.io/github/license/h3xi/forecastvh-py)
 
 `podsearch` finds weather forecast via [OpenWeather API](https://openweathermap.org/current).'
 
