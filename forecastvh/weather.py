@@ -4,7 +4,7 @@ from dataclasses import dataclass
 
 
 @dataclass
-class Podcast:
+class Forecast:
     """Forecast metadata."""
 
     id: int
@@ -39,7 +39,7 @@ def get_weather(city: str, units: str = "metric", lang: str = "en"):
     )
     todos = json.loads(response.text)
     if todos["cod"] == 200:
-        result = Podcast(
+        result = Forecast(
             id=todos["id"],
             country=todos["sys"]["country"],
             city=todos["name"],

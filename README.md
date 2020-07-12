@@ -9,7 +9,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/3784e7d1af07db0d982c/maintainability)](https://codeclimate.com/github/h3xi/forecastvh-py/maintainability)
 ![GitHub](https://img.shields.io/github/license/h3xi/forecastvh-py)
 
-`podsearch` finds weather forecast via [OpenWeather API](https://openweathermap.org/current).'
+`forecastvh` finds weather forecast via [OpenWeather API](https://openweathermap.org/current).'
 
 Search parameters:
 
@@ -17,7 +17,7 @@ Search parameters:
 - *country* - ISO alpha-2 country code (de, fr etc), default: en
 - *units* - units format (imperial or metric), default: metric
 
-Returned attributes for each podcast (https://openweathermap.org/current#current_JSON):
+Returned attributes for each forecast (https://openweathermap.org/current#current_JSON):
 
 - *id* - City ID (e.g., `420006353`)
 - *country* - Country code (`GB`)
