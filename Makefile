@@ -19,12 +19,3 @@ push:  ## Push code with tags
 
 test:  ## Run tests
 	pytest -ra
-
-flit: #build package
-	flit build
-
-flit-pt: #send package to testpypi repository
-	flit publish --repository testpypi
-
-flit-pp: #send package to pypi repository
-	flit publish --repository pypi
