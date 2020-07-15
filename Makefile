@@ -1,4 +1,3 @@
-.DEFAULT_GOAL := help
 .PHONY: changelog coverage deps help lint push test
 
 coverage:  ## Run tests with coverage
